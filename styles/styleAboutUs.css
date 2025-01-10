@@ -12,7 +12,7 @@ table {
 }
 th, td {
     border: 2px solid black; /* Asegura que todos los bordes sean visibles 
-    padding: 10px; /* Agrega espacio dentro de las celdas 
-    text-align: center; /* Alinea el texto a la izquierda 
+    padding: 10px; /* Agrega espacio dentro de las celdas */
+    text-align: center; /* Alinea el texto a la izquierda */
 }
-*/
+
