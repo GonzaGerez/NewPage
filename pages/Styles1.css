@@ -1,0 +1,17 @@
+header h1 {
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    color: #feda4a; 
+}
+
+table {
+    background-color: rgb(255, 225, 0);
+    border-collapse: collapse;
+    width: 100%; /* Opcional: ajusta al ancho del contenedor */
+}
+th, td {
+    border: 2px solid black; /* Asegura que todos los bordes sean visibles */
+    padding: 10px; /* Agrega espacio dentro de las celdas */
+    text-align: center; /* Alinea el texto a la izquierda */
+}

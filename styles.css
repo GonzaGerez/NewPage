@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(247, 247, 247);
+}
+
+header h1 {
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    color: #feda4a; 
+}
+#carouselExample{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* (Opcional) Centra verticalmente */
+    width: 500px; /* Asegúrate de que ocupe todo el ancho disponible */
+    height: auto; /* Ajusta la altura automáticamente */
+    padding: 20px; /* Opcional: Añade espacio alrededor */
+}
+#sugerencias h2 {
+    color: rgb(226, 43, 95);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*
+}
+#nave {
+    background-color: #4b0000; /* Fondo oscuro */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    /*
+}
+#nave .nav-link {
+    color: #380c01 !important; /* Forzar el estilo */
+}
+  /*
