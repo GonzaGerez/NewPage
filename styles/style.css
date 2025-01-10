@@ -1,13 +1,25 @@
-*{
+/*
+Selector Universal: * 
+*/
+*{ 
     background-color: rgb(247, 247, 247);
 }
 
+
+/*
+Selector de la etiqueta h1 dentro del header
+
+*/
 header h1 {
     text-align: center;
     background-color: black;
     font-size: 40px;
     color: #feda4a; 
 }
+
+/*
+Selector de ID: carouselExample
+*/
 #carouselExample{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -16,22 +28,26 @@ header h1 {
     height: auto; /* Ajusta la altura automáticamente */
     padding: 20px; /* Opcional: Añade espacio alrededor */
 }
+
+/*
+Seleccionando las etiquetas h2 dentro del ID sugerencias
+*/
 #sugerencias h2 {
     color: rgb(226, 43, 95);
     font-size: 30px;
     text-align: center;
 }
-
-
 /*
-}
+id nave
+*/
 #nave {
     background-color: #4b0000; /* Fondo oscuro */
     padding: 10px; /* Espaciado interno */
     border-radius: 5px; /* Bordes redondeados */
-    /*
 }
+
+/*seleccionando la clase nav-link dentro del id #nave*/
+
 #nave .nav-link {
     color: #380c01 !important; /* Forzar el estilo */
 }
-  /*
