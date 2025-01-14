@@ -1,15 +1,24 @@
 /*
-Selector Universal: * 
+Selector Universal: sirve para tomar valores en toda la estructura del sitio * 
 */
 *{ 
-    background-color: rgb(247, 247, 247);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-
+/* Por lo general en la etiqueta body vas a utilizar el: color de fondo, tamaño de letra y tipografia de la letra*/
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
 
 /*
 Selector de la etiqueta h1 dentro del header
 
 */
+
+
 header h1 {
     text-align: center;
     background-color: black;
@@ -20,6 +29,7 @@ header h1 {
 /*
 Selector de ID: carouselExample
 */
+
 #carouselExample{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -32,11 +42,25 @@ Selector de ID: carouselExample
 /*
 Seleccionando las etiquetas h2 dentro del ID sugerencias
 */
+
+/*
+2 ley de importancia
+!important es el que importancia toma 
+id
+clase
+etiqueta
+
+*/
 #sugerencias h2 {
     color: rgb(226, 43, 95);
     font-size: 30px;
     text-align: center;
 }
+
+#prueba { color: green;}
+
+.pruebarojo{color: red}
+
 /*
 id nave
 */
@@ -50,4 +74,12 @@ id nave
 
 #nave .nav-link {
     color: #380c01 !important; /* Forzar el estilo */
+}
+
+/*
+1 primera ley de cascada
+En css: el último selector (el que está más abajo) ante una doble asignación será el que el tomado por el diseño de la web
+*/
+*{ 
+    background-color: rgb(247, 247, 247);
 }
