@@ -1,8 +1,19 @@
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
 header h1 {
     text-align: center;
     background-color: black;
     font-size: 40px;
     color: #feda4a; 
+    margin:10px ;
+    padding: 10;
+    box-sizing:30 ;
 }
 
 table {
@@ -14,5 +25,24 @@ th, td {
     border: 2px solid black; /* Asegura que todos los bordes sean visibles */ 
     padding: 10px; /* Agrega espacio dentro de las celdas */
     text-align: center; /* Alinea el texto a la izquierda */
+}
+#nave {
+    background-color:#030300 ; /* Fondo oscuro */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/*seleccionando la clase nav-link dentro del id #nave*/
+
+#nave .nav-link {
+    color: hsl(48, 99%, 64%) !important; /* Forzar el estilo */
+    background-color: #030300;
+}
+footer {
+    text-align: center; /* Centra horizontalmente el texto */
+}
+#iconinstagram {
+    width: 20px;   
+    height: auto;
 }
 

@@ -9,7 +9,7 @@ Selector Universal: sirve para tomar valores en toda la estructura del sitio *
 /* Por lo general en la etiqueta body vas a utilizar el: color de fondo, tamaño de letra y tipografia de la letra*/
 body{
     background-color: rgb(247, 247, 247);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color:black;
 }
 
