@@ -96,7 +96,7 @@ En css: el último selector (el que está más abajo) ante una doble asignación
     font-size: 16px;
   }
   
-  button {
+  /*#botonformulario*/ button {
     width: 10%; /* Botón del ancho completo */
     padding: 10px 16px;
     font-size: 16px;
@@ -107,7 +107,7 @@ En css: el último selector (el que está más abajo) ante una doble asignación
     cursor: pointer;
   }
   
-  button:hover {
+  /*#botonformulario*/ button:hover  {
     background-color: #0056b3; /* Color al pasar el cursor */
   }
   
