@@ -23,7 +23,7 @@ header h1 {
     text-align: center;
     background-color: black;
     font-size: 40px;
-    color: #feda4a; 
+    color: hsl(48, 99%, 64%); 
 }
 
 /*
@@ -56,6 +56,9 @@ etiqueta
     font-size: 30px;
     text-align: center;
 }
+#sugerencias p{
+    text-align: center;
+}
 
 #prueba { color: green;}
 
@@ -65,7 +68,7 @@ etiqueta
 id nave
 */
 #nave {
-    background-color: #4b0000; /* Fondo oscuro */
+    background-color:#030300 ; /* Fondo oscuro */
     padding: 10px; /* Espaciado interno */
     border-radius: 5px; /* Bordes redondeados */
 }
@@ -73,7 +76,8 @@ id nave
 /*seleccionando la clase nav-link dentro del id #nave*/
 
 #nave .nav-link {
-    color: #380c01 !important; /* Forzar el estilo */
+    color: hsl(48, 99%, 64%) !important; /* Forzar el estilo */
+    background-color: #030300;
 }
 
 /*
@@ -83,6 +87,30 @@ En css: el último selector (el que está más abajo) ante una doble asignación
 *{ 
     background-color: rgb(247, 247, 247);
 }
+
+  input, textarea {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 10%; /* Botón del ancho completo */
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ffd500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Color al pasar el cursor */
+  }
+  
 footer {
     text-align: center; /* Centra horizontalmente el texto */
 }
