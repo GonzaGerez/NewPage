@@ -46,3 +46,20 @@ footer {
     height: auto;
 }
 
+
+ table a:link {
+    color: #030303;
+  }
+  
+  
+  table a:visited {
+    color: #ac4fe6;
+  }
+  
+  
+  table a:hover {
+    color: #e80b0b;
+  }
+  
+ 
+
