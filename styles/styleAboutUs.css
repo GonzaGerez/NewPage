@@ -61,5 +61,9 @@ footer {
     color: #e80b0b;
   }
   
- 
+  p::first-letter {
+    color: #050505;
+    font-size: xx-large;
+
+    }
 

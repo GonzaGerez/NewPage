@@ -3,14 +3,6 @@
     padding:0;
     box-sizing: border-box;
 }
-*{
-    background-color: #47498d;
-    
-}
-h1{
-    color: #030300;
-    text-align: center;
-}
 #nave {
     background-color:#030300 ; /* Fondo oscuro */
     padding: 10px; /* Espaciado interno */
@@ -23,6 +15,29 @@ h1{
     color: hsl(48, 99%, 64%) !important; /* Forzar el estilo */
     background-color: #030300;
 }
+
+input, textarea {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  #sugerencias button {
+    width: 10%; /* Botón del ancho completo */
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ffd500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #sugerencias button:hover {
+    background-color: #0056b3; /* Color al pasar el cursor */
+  }
 
 footer {
     text-align: center; /* Centra horizontalmente el texto */

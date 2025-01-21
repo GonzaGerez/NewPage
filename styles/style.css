@@ -88,28 +88,7 @@ En css: el último selector (el que está más abajo) ante una doble asignación
     background-color: rgb(247, 247, 247);
 }
 
-  input, textarea {
-    width: 100%; /* Ocupa todo el ancho del contenedor */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  #sugerencias button {
-    width: 10%; /* Botón del ancho completo */
-    padding: 10px 16px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #ffd500;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  #sugerencias button:hover {
-    background-color: #0056b3; /* Color al pasar el cursor */
-  }
+ 
   
 footer {
     text-align: center; /* Centra horizontalmente el texto */
