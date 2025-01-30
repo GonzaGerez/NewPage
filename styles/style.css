@@ -13,6 +13,45 @@ body{
     color:black;
 }
 
+/* intento de responsit */ 
+
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+/*celular*/
+
+@media (max-width: 767px) {
+    .pc{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .pc{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+}
+/*Escritorio*/
+
+@media (min-width: 991px) {
+    .tablet{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+}
+
 /*
 Selector de la etiqueta h1 dentro del header
 

@@ -1,4 +1,4 @@
-const titulo = ("bienvenido")
+const titulo = ("Prueaba")
 
 console.log(titulo)
 document.getElementById("prueba").textContent = titulo;
