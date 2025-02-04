@@ -69,13 +69,12 @@ header h1 {
 Selector de ID: carouselExample
 */
 
-#carouselExample{
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* (Opcional) Centra verticalmente */
-    width: 500px; /* Asegúrate de que ocupe todo el ancho disponible */
-    height: auto; /* Ajusta la altura automáticamente */
-    padding: 20px; /* Opcional: Añade espacio alrededor */
+#carouselExample {
+    display: block; /* No es necesario que sea flex */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    width: 500px; /* Ajusta el ancho según necesidad */
+    height: auto; /* Mantiene la proporción */
+    padding: 20px; /* Espaciado opcional */
 }
 
 /*

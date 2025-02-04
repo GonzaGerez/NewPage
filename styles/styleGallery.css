@@ -3,12 +3,16 @@
     padding:0;
     box-sizing: border-box;
 }
-*{
-    background-color: #47498d;
-    
+
+body {
+    background-image: url(/images/Img4.jpg); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
-h1{
-    color: #030300;
+
+header, h1{
+    color: white;
     text-align: center;
 }
 #nave {
@@ -24,9 +28,18 @@ h1{
     background-color: #030300;
 }
 
+#carouselExampleAutoplaying {
+    display: block; /* No es necesario que sea flex */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    width: 500px; /* Ajusta el ancho según necesidad */
+    height: auto; /* Mantiene la proporción */
+    padding: 20px; /* Espaciado opcional */
+}
+
+
 footer {
     text-align: center; /* Centra horizontalmente el texto */
-    color: #030300;
+    color: white;
 }
 
 footer a i {

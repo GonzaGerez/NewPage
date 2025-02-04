@@ -16,26 +16,71 @@
     background-color: #030300;
 }
 
-input, textarea {
-    width: 100%; /* Ocupa todo el ancho del contenedor */
+#sugerencias, h2{
+  text-align: center;
+}
+
+/* input, textarea {
+    width: 100%; /* Ocupa todo el ancho del contenedor 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
   }
   
-  #sugerencias button {
-    width: 10%; /* Botón del ancho completo */
+   #sugerencias button {
+    width: 10%; /* Botón del ancho completo 
     padding: 10px 16px;
     font-size: 16px;
     color: #fff;
     background-color: #ffd500;
     border: none;
     border-radius: 4px;
+    cursor: pointer; 
+  } 
+  
+  #sugerencias button:hover {
+    background-color: #0056b3; /* Color al pasar el cursor 
+  } */
+  form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 16px;
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 16px; /* Espaciado entre los campos */
+  }
+  
+  label {
+    display: block; /* Coloca el label en una línea separada */
+    margin-bottom: 8px; /* Espacio entre el label y el input */
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%; /* Botón del ancho completo */
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
   }
   
-  #sugerencias button:hover {
+  button:hover {
     background-color: #0056b3; /* Color al pasar el cursor */
   }
 

@@ -1,4 +1,4 @@
-const titulo = ("Prueaba")
+/*const titulo = ("Prueaba")
 
 console.log(titulo)
 document.getElementById("prueba").textContent = titulo;
@@ -34,3 +34,16 @@ if(true){
 console.log (saludo)
 document.getElementById("mensaje").textContent = saludo;
 */
+// Cargar el sonido
+
+const lightsaberSound = new Audio(); 
+
+// Seleccionar todos los enlaces de navegación
+const navLinks = document.querySelectorAll('.nav-link');
+
+// Agregar un evento de clic a cada enlace
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        lightsaberSound.play(); // Reproducir el sonido
+    });
+});
