@@ -36,7 +36,8 @@ document.getElementById("mensaje").textContent = saludo;
 */
 // Cargar el sonido
 
-const lightsaberSound = new Audio(); 
+
+const lightsaberSound = new Audio('/script/lightsaber.mp3');
 
 // Seleccionar todos los enlaces de navegación
 const navLinks = document.querySelectorAll('.nav-link');
@@ -45,5 +46,6 @@ const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         lightsaberSound.play(); // Reproducir el sonido
+        console.log("click")
     });
-});
+}); 
